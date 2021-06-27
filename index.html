@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment Level 6 | Box Model: Home Page</title>
+  <link rel="stylesheet" href="./assests/stylesheets/style.css">
+</head>
+<body>
+  <nav>
+    <ul class="flex justify-center item-center">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="container">
+      <section>
+        <h1>The Box Model, Box Sizing, and Box Shadow</h1>
+        <h2>Exercise 1</h2>
+        <div class="box"></div>
+        <div class="marker-container">
+          <div class="marker">
+            <span class="circle content"></span>
+            <span>#99D8CA</span>
+          </div>
+          <div class="marker">
+            <span class="circle second"></span>
+            <span>#0D1430</span>
+          </div>
+          <div class="marker">
+            <span class="circle third"></span>
+            <span>#90FFA9</span>
+          </div>
+          <div class="marker">
+            <span class="circle fourth"></span>
+            <span>#5873E2</span>
+          </div>
+          <hr>
+        </div>
+      </section>
+      
+      <section class="padding">
+        <div class="container text-center">
+          <h2 class="text-center">Exercise 2</h2>
+          <p>No border on these boxes.</p>
+          <div class="box-container flex justify-center item-center">
+            <div class="child-box"></div>
+            <div class="child-box"></div>
+            <div class="child-box"></div>
+          </div>
+          <hr>
+          <p>All border on these boxes, including the children</p>
+          <div class="box-container all-border flex justify-center item-center">
+            <div class="child-box border"></div>
+            <div class="child-box border"></div>
+            <div class="child-box border"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
